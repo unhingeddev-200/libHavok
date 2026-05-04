@@ -3,8 +3,8 @@ exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${prefix}/lib
 
-Name: Err
-Description: A library for error handling similar to C stdlib
+Name: Havok
+Description: A library common tasks i need to perform in all my projects
 Version: 1.0.0
 Cflags: -I${includedir}/havok
-Libs: -L${libdir} -lErr
+Libs: -L${libdir} -lHavok
