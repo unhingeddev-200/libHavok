@@ -6,5 +6,5 @@ libdir=${prefix}/lib
 Name: Havok
 Description: A library common tasks i need to perform in all my projects
 Version: 1.0.0
-Cflags: -I${includedir}/havok
+Cflags: -I${includedir}
 Libs: -L${libdir} -lHavok
