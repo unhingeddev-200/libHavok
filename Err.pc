@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: Err
+Description: A library for error handling similar to C stdlib
+Version: 1.0.0
+Cflags: -I${includedir}/havok
+Libs: -L${libdir} -lErr
